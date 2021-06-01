@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cfcfcf;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+section {
+  border: none;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 2%;
+  grid-row-gap: 2.5%;
+}
+
+section .Daniel-Clifford {
+  border: none;
+  grid-row: 1 /span 1;
+  grid-column: 1 / span 2;
+  box-shadow: 0px 7px 15px grey;
+}
+
+section .Jonathan-Walters {
+  border: none;
+  grid-row: 1 / span 1;
+  grid-column: 3 / span 1;
+}
+
+section .Jeanette-Harmon {
+  border: none;
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 1;
+}
+
+section .Patrick-Abrams {
+  border: none;
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 2;
+}
+
+section .Kira-Whittle {
+  border: none;
+  grid-row: 1 / span 2;
+  grid-column: 4 / span 1;
+}
+
+.Daniel-Clifford {
+  border: none;
+  background-color: #7541c8;
+  border-radius: 10px;
+  background-image: url("images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-size: 6rem;
+  background-position: top 0px right 15%;
+  padding: 6%;
+}
+
+.Daniel-Clifford .details-container {
+  display: flex;
+  border: none;
+}
+
+.Daniel-Clifford .details-container .img-container {
+  width: 40px;
+  height: 40px;
+  margin-right: 5%;
+}
+
+.Daniel-Clifford .details-container .img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  border: thin solid seashell;
+}
+
+.Daniel-Clifford .details-container .name-job {
+  border: none;
+  font-size: clamp(0.6rem, 0.8vw, 2.5rem);
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.Daniel-Clifford .details-container .name-job .name {
+  color: #cfcfcf;
+  font-weight: 600;
+}
+
+.Daniel-Clifford .details-container .name-job .job {
+  color: #cfcfcf;
+  opacity: 0.6;
+  font-size: clamp(0.6rem, 0.7vw, 2.5rem);
+}
+
+.Daniel-Clifford .comment {
+  border: none;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: clamp(0.75rem, 1vw, 2.5rem);
+  margin-bottom: 4%;
+}
+
+.Daniel-Clifford .quote {
+  border: none;
+  color: white;
+  opacity: 0.7;
+  font-size: clamp(0.65rem, 0.8vw, 2.5rem);
+  line-height: 1.2;
+}
+
+/*Styling for Jonathan Walter's div*/
+.Jonathan-Walters {
+  border: none;
+  background-color: rgba(25, 33, 46, 0.8);
+  border-radius: 10px;
+  padding: 12% 6%;
+}
+
+.Jonathan-Walters .details-container {
+  display: flex;
+  border: none;
+}
+
+.Jonathan-Walters .details-container .img-container {
+  width: 40px;
+  height: 40px;
+  margin-right: 5%;
+  margin-bottom: 7%;
+}
+
+.Jonathan-Walters .details-container .img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  border: thin solid seashell;
+}
+
+.Jonathan-Walters .details-container .name-job {
+  border: none;
+  font-size: clamp(0.6rem, 0.8vw, 2.5rem);
+  margin-top: 3.5%;
+  margin-bottom: 6%;
+}
+
+.Jonathan-Walters .details-container .name-job .name {
+  color: #cfcfcf;
+  font-weight: 600;
+}
+
+.Jonathan-Walters .details-container .name-job .job {
+  color: #cfcfcf;
+  opacity: 0.6;
+  font-size: clamp(0.6rem, 0.7vw, 2.5rem);
+}
+
+.Jonathan-Walters .comment {
+  border: none;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: clamp(0.7rem, 1.1vw, 2.5rem);
+  margin-bottom: 7%;
+}
+
+.Jonathan-Walters .quote {
+  border: none;
+  color: white;
+  opacity: 0.7;
+  font-size: clamp(0.74rem, 0.9vw, 2.5rem);
+  line-height: 1.2;
+}
+
+/*Styling for Jeanette Harmon's div*/
+.Jeanette-Harmon {
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 6%;
+}
+
+.Jeanette-Harmon .details-container {
+  display: flex;
+  border: none;
+}
+
+.Jeanette-Harmon .details-container .img-container {
+  width: 40px;
+  height: 40px;
+  margin-right: 5%;
+  margin-bottom: 6%;
+}
+
+.Jeanette-Harmon .details-container .img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  border: thin solid seashell;
+}
+
+.Jeanette-Harmon .details-container .name-job {
+  border: none;
+  font-size: clamp(10px, 0.8vw, 20px);
+}
+
+.Jeanette-Harmon .details-container .name-job .name {
+  color: #19212e;
+  margin-top: 5.5%;
+  font-weight: 600;
+}
+
+.Jeanette-Harmon .details-container .name-job .job {
+  color: #19212e;
+  opacity: 0.6;
+  font-size: clamp(10px, 0.7vw, 20px);
+}
+
+.Jeanette-Harmon .comment {
+  border: none;
+  color: #19212e;
+  font-weight: 600;
+  font-size: clamp(12px, 1.3vw, 60px);
+  margin-bottom: 6%;
+}
+
+.Jeanette-Harmon .quote {
+  border: none;
+  color: #19212e;
+  opacity: 0.7;
+  font-size: clamp(0.95rem, 0.9vw, 2.5rem);
+  line-height: 1.2;
+}
+
+/*Styling for Patrick Abrams's div*/
+.Patrick-Abrams {
+  border: none;
+  background-color: #19212e;
+  border-radius: 10px;
+  padding: 6%;
+}
+
+.Patrick-Abrams .details-container {
+  display: flex;
+  border: none;
+}
+
+.Patrick-Abrams .details-container .img-container {
+  width: 40px;
+  height: 40px;
+  margin-right: 5%;
+  margin-bottom: 3%;
+}
+
+.Patrick-Abrams .details-container .img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  border: 2px solid #48556a;
+}
+
+.Patrick-Abrams .details-container .name-job {
+  border: none;
+  font-size: clamp(10px, 0.8vw, 20px);
+}
+
+.Patrick-Abrams .details-container .name-job .name {
+  color: whitesmoke;
+  font-weight: 600;
+  margin-top: 7%;
+}
+
+.Patrick-Abrams .details-container .name-job .job {
+  color: whitesmoke;
+  opacity: 0.6;
+  font-size: clamp(10px, 0.7vw, 20px);
+}
+
+.Patrick-Abrams .comment {
+  border: none;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: clamp(12px, 1.1vw, 60px);
+  margin-bottom: 3%;
+}
+
+.Patrick-Abrams .quote {
+  border: none;
+  color: whitesmoke;
+  opacity: 0.7;
+  font-size: clamp(0.6rem, 0.9vw, 2.5rem);
+  line-height: 1.2;
+}
+
+/*Styling for Kiara Whittle's div*/
+.Kira-Whittle {
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 6%;
+}
+
+.Kira-Whittle .details-container {
+  display: flex;
+  border: none;
+}
+
+.Kira-Whittle .details-container .img-container {
+  width: 40px;
+  height: 40px;
+  margin-right: 5%;
+  margin-bottom: 8%;
+}
+
+.Kira-Whittle .details-container .img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  border: thin solid seashell;
+}
+
+.Kira-Whittle .details-container .name-job {
+  border: none;
+  font-size: clamp(10px, 0.8vw, 20px);
+}
+
+.Kira-Whittle .details-container .name-job .name {
+  color: #19212e;
+  margin-top: 9%;
+  font-weight: 600;
+}
+
+.Kira-Whittle .details-container .name-job .job {
+  color: #19212e;
+  opacity: 0.6;
+  font-size: clamp(1rem, 0.7vw, 2.5rem);
+}
+
+.Kira-Whittle .comment {
+  border: none;
+  color: #19212e;
+  font-weight: 600;
+  font-size: clamp(0.65rem, 1.2vw, 2.5rem);
+  margin-bottom: 8.5%;
+}
+
+.Kira-Whittle .quote {
+  border: none;
+  color: #19212e;
+  opacity: 0.7;
+  font-size: clamp(0.7rem, 0.98vw, 2.5rem);
+  line-height: 1.2;
+}
+
+/*Media query for tablet in Landscape*/
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+  html {
+    font-size: 21px;
+  }
+  section {
+    width: 90vw;
+  }
+}
+
+/*Media query for tablet in portrait*/
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+  html {
+    font-size: 24px;
+  }
+}
+
+/* Media query for mobile */
+@media only screen and (max-width: 769px) {
+  section {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 1fr 2fr 2fr;
+    grid-template-areas: "div1" "div2" "div3" "div4" "div5";
+  }
+  section .Daniel-Clifford {
+    grid-area: div1;
+  }
+  section .Jonathan-Walters {
+    grid-area: div2;
+  }
+  section .Jeanette-Harmon {
+    grid-area: div3;
+  }
+  section .Jeanette-Harmon .comment {
+    font-size: 18px;
+  }
+  section .Patrick-Abrams {
+    grid-area: div4;
+  }
+  section .Kira-Whittle {
+    grid-area: div5;
+  }
+}
+/*# sourceMappingURL=style.css.map */
